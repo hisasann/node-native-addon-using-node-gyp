@@ -1,0 +1,17 @@
+{
+  "name": "node-native-addon-using-node-gyp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/hello.js",
+    "build": "node-gyp clean configure build",
+    "rebuild": "node-gyp rebuild"
+  },
+  "author": "hisasann <hisasann25@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^3.5.0"
+  },
+  "gypfile": true
+}
